@@ -10,7 +10,7 @@ class GamePad
 				Joystick::Device.new jpath
 				gamepads << jpath
 			rescue Exception => e
-				#not joystick on this port
+				#no joystick on this port
 			end
 		end
 		gamepads
