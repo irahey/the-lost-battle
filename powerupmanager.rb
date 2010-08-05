@@ -9,7 +9,7 @@ class PowerupManager
 			{image: "Help.png", type: :health, duration: 0}, 
 			{image: "doubledamage.png", type: :doubledamage, duration: 5000},
 			{image: "triple_shot.png", type: :triple_shot, duration: 5000}, 
-			{image: "cursor.png", type: :shiphelper, duration: 0}
+			{image: "helper_ship.png", type: :shiphelper, duration: 0}
 		]
 		@hit_callback = hit_callback
 		@current_powerups = Array.new
