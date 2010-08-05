@@ -29,6 +29,7 @@ class Main < Gosu::Window
 		StateMachine.window = self
 		AudioManager.window = self
 		StateMachine.set_state :mainmenu, :restart# initial state
+		self.caption = "The Lost Battle"
 	end
 
 	def update
