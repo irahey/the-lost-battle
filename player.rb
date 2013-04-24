@@ -1,13 +1,13 @@
-require 'gamepad.rb'
-require 'mouse.rb'
-require 'helpers.rb'
-require 'projectilefactory.rb'
-require 'healthbar.rb'
-require 'spriteanimation.rb'
-require 'playerscore.rb'
-require 'playertag.rb'
-require 'powerupindicator.rb'
-require 'shiphelper.rb'
+require_relative 'gamepad.rb'
+require_relative 'mouse.rb'
+require_relative 'helpers.rb'
+require_relative 'projectilefactory.rb'
+require_relative 'healthbar.rb'
+require_relative 'spriteanimation.rb'
+require_relative 'playerscore.rb'
+require_relative 'playertag.rb'
+require_relative 'powerupindicator.rb'
+require_relative 'shiphelper.rb'
 
 class Player
 	attr_accessor :is_alive, :name

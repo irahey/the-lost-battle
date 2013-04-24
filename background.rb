@@ -1,4 +1,4 @@
-require 'scrollingbackground.rb'
+require_relative 'scrollingbackground.rb'
 class Background
 	
 	TERRAIN_FOLDER = "images/terrain/"

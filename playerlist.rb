@@ -1,5 +1,5 @@
-require 'crosshair.rb'
-require 'playervehicle.rb'
+require_relative 'crosshair.rb'
+require_relative 'playervehicle.rb'
 
 class PlayerList
 

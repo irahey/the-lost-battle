@@ -2,20 +2,20 @@ require 'gosu'
 require 'chipmunk'
 
 require 'yaml'
-require 'audiomanager.rb'
-require 'gameoptions.rb'
-require 'zordinals.rb'
-require 'gamepadconfig.rb'
-require 'background.rb'
-require 'highscoresfile.rb'
+require_relative 'audiomanager.rb'
+require_relative 'gameoptions.rb'
+require_relative 'zordinals.rb'
+require_relative 'gamepadconfig.rb'
+require_relative 'background.rb'
+require_relative 'highscoresfile.rb'
 
-require 'shared.rb'
-require 'menustate.rb'
-require 'playerselectionstate.rb'
-require 'highscoresstate.rb'
-require 'gamestate.rb'
+require_relative 'shared.rb'
+require_relative 'menustate.rb'
+require_relative 'playerselectionstate.rb'
+require_relative 'highscoresstate.rb'
+require_relative 'gamestate.rb'
 
-require 'statemachine.rb'
+require_relative 'statemachine.rb'
 
 SCREEN_WIDTH = 1024
 SCREEN_HEIGHT = 768

@@ -1,6 +1,6 @@
-require 'playerlisting.rb'
-require 'textfield.rb'
-require 'cursor.rb'
+require_relative 'playerlisting.rb'
+require_relative 'textfield.rb'
+require_relative 'cursor.rb'
 
 class PlayerSelectionState
 

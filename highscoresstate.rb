@@ -1,4 +1,4 @@
-require 'score.rb'
+require_relative 'score.rb'
 
 class HighScoresState
 

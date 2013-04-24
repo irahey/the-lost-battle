@@ -1,8 +1,8 @@
-require 'playerlist.rb'
-require 'player.rb'
-require 'playerlisting.rb'
-require 'gamescores.rb'
-require 'powerupmanager.rb'
+require_relative 'playerlist.rb'
+require_relative 'player.rb'
+require_relative 'playerlisting.rb'
+require_relative 'gamescores.rb'
+require_relative 'powerupmanager.rb'
 
 class GameState
 	SUBSTEPS = 6

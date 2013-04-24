@@ -1,4 +1,4 @@
-require 'powerup.rb'
+require_relative 'powerup.rb'
 
 class PowerupManager
 	BASE_POWERUPS_FOLDER = "images/powerups/"

@@ -1,4 +1,4 @@
-require 'menu.rb'
+require_relative 'menu.rb'
 
 class MainMenuState
 
@@ -23,7 +23,7 @@ class MainMenuState
 			window.close 
 		}, Gosu::Image.new(window, "images/mainmenu/exit_hover.png", false))
 
-		AudioManager::intro_song.play
+		#AudioManager::intro_song.play
 	end
 
 	def update

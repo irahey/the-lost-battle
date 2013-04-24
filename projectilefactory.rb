@@ -1,4 +1,4 @@
-require 'projectile.rb'
+require_relative 'projectile.rb'
 
 class ProjectileFactory
 
